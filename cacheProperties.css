@@ -1,0 +1,36 @@
+/* General container styling */
+.container {
+    -fx-padding: 20;
+    -fx-spacing: 15;
+    -fx-alignment: center;
+    -fx-background-color: #f9f9f9;
+}
+
+/* Title label styling */
+.title-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    -fx-text-fill: #333;
+}
+
+/* General label styling */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+    -fx-padding: 5 0;
+}
+
+/* Dropdown styling */
+.dropdown {
+    -fx-pref-width: 200;
+    -fx-font-size: 14px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5;
+}
+
+.dropdown:focused {
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+}

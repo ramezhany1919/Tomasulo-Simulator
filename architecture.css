@@ -1,0 +1,14 @@
+/* Styling for each register HBox */
+.register-box {
+    -fx-padding: 5;
+    -fx-border-color: #000; /* Black border */
+    -fx-border-width: 0 0 1 0; /* Border only at the bottom */
+    -fx-border-style: solid;
+}
+
+/* Styling for the header of the register files */
+.register-header {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+}

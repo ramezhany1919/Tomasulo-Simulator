@@ -1,0 +1,21 @@
+/* styles.css */
+.button {
+    -fx-background-color: #ffffff; /* Dark purple (Hex color) */
+    -fx-text-fill: black;
+     -fx-translate-y: 250px;
+     -fx-font-weight: bold;         /* Makes the text bold */
+    -fx-font-size: 25px;           /* Increases the font size */
+    -fx-padding: 7px 35px;        /* Adjusts the button size (padding inside the button) */
+    -fx-background-radius: 30px;     /* Makes the button rounded */
+     -fx-cursor: hand;
+}
+
+.root {
+	
+    -fx-background-image: url("../images/IBM_PROCESSOR.jpg"); /* Replace with your image file */
+    -fx-background-size: cover;                 /* Ensures the image covers the entire pane */
+    -fx-background-repeat: no-repeat;           /* Prevents the image from repeating */
+    -fx-background-position: center;            /* Centers the image */
+}
+
+

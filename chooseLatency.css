@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Style for the VBox container */
+.vbox {
+    -fx-padding: 20;
+    -fx-spacing: 15;
+    -fx-alignment: center;
+    -fx-background-color: #f9f9f9;
+}
+
+/* Title styling */
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 10 0 20 0;
+}
+
+/* Style for all HBox rows */
+.hbox {
+    -fx-alignment: center-left;
+    -fx-spacing: 10;
+}
+
+/* Style for the Labels in each row */
+.instruction-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+    -fx-pref-width: 200; /* Ensures uniform alignment */
+}
+
+/* Style for all TextFields */
+.input-field {
+    -fx-pref-width: 300;
+    -fx-padding: 5;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+}
+
+/* Focused TextField styling */
+.input-field:focused {
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+}
+
+/* Center the button */
+.button {
+    -fx-alignment: center;
+    -fx-padding: 10;
+    -fx-font-size: 16px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-min-width: 100px;
+}
+
+/* Button hover effect */
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
